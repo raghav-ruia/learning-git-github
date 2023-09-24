@@ -16,3 +16,5 @@ attach url to git: git remote add origin <URL>
 get list of attached URL to project: git remove -v
 push data to github: git push origin master
 get forked rep in your system: git clone <URL OF THE REPOSITORY YOU FORKED>
+make new branch: git branch <NAME OF BRANCH>
+point head to branch: git checkout <BRANCH NAME>
