@@ -1,0 +1,17 @@
+empty git rep: git init
+untracked files: git status
+start tracking of whole folder: git add .
+start tracking of only files: git add names.txt
+get picture clicked (track): git commit -m "<Your message here, -m here means message>"
+open a file for editing: vi <filename>
+save that file: Press Esc -> Type :x
+display contents of a file: cat <filename>
+remove from stage: git restore --staged names.txt
+to recover previous ver: git reset <commit hash value>
+copy & paste: copy: Ctrl+Insert, paste: Shift+Insert
+send to backstage: git stash
+bring to unstage: git stash pop	
+remove people for backstage: git stash clear
+attach url to git: git remote add origin <URL>
+get list of attached URL to project: git remove -v
+push data to github: git push origin master
